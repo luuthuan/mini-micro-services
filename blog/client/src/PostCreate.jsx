@@ -14,8 +14,8 @@ const PostCreate = () => {
   };
   return (
     <div>
-      <form className="form-group mb-3" onSubmit={onSubmit}>
-        <div>
+      <form  onSubmit={onSubmit}>
+        <div className="form-group mb-3">
           <label className="mb-2">Title</label>
           <input
             className="form-control"
